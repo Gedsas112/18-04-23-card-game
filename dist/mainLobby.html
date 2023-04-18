@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Lobby</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        background: black;
+      }
+    </style>
+    <h1 class="trinka">TRINKA</h1>
+    <h2 class="username"></h2>
+    <div class="lobby-buttons">
+      <button class="login">Log in</button>
+      <button class="join">Join</button>
+      <button class="cashier">Cashier</button>
+    </div>
+    <button class="logout">Logout</button>
+
+    <label class="stakes" for="">Stakes</label>
+    <select name="stakes" id="stakes">
+      <multiple>
+        <option value="All">All</option>
+        <option value="0.5$">0.5$</option>
+        <option value="1$">1$</option>
+        <option value="2$">2$</option>
+      </multiple>
+      <option value="sssss"></option>
+      <!-- value="hhh" -->
+    </select>
+    <div class="tables">
+      <div class="table1">
+        <div class="table">
+          <span>Table name</span>
+          <span>Stakes</span>
+          <span>max players</span>
+          <span>current No. player</span>
+        </div>
+        <button>Join table</button>
+      </div>
+
+      <div class="table">
+        <span>Table name</span>
+        <span>Stakes</span>
+        <span>max players</span>
+        <span>current No. player</span>
+      </div>
+      <div class="table">
+        <span>Table name</span>
+        <span>Stakes</span>
+        <span>max players</span>
+        <span>current No. player</span>
+      </div>
+    </div>
+    <div class="new-acc-form">
+      <form class="signup">
+        <h3 class="signup-text">Sign up your Trinka Account</h3>
+        <label class="usernameInput" for="username">Username</label>
+        <input type="text" id="username" />
+        <label class="email" for="email">Email</label>
+        <input type="email" id="email" />
+        <label class="password" for="password">Password</label>
+        <input type="password" id="password" />
+        <button class="creat-account">Creat account</button>
+      </form>
+    </div>
+    <div class="login-acc-form">
+      <form class="loginForm">
+        <h3 class="login-text">Log in to your Trinka Account</h3>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+        <label for="password">Password</label>
+        <input type="password" name="password" required />
+
+        <button class="login-btn">Login</button>
+      </form>
+    </div>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>

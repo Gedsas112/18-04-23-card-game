@@ -1,0 +1,271 @@
+/* * {
+  color: white;
+} */
+body {
+  /* background: rgb(0, 0, 0); */
+}
+.container-player1 {
+  /* display: flex; */
+  margin-top: 100px;
+}
+.container-player2 {
+  /* margin-top: 100px; */
+  display: flex;
+}
+.card-container1 {
+  display: flex;
+  position: relative;
+  margin-left: 500px;
+  /* margin-top: 350px; */
+}
+.card {
+  position: absolute;
+}
+.card-container2 {
+  display: flex;
+  position: relative;
+  margin-left: 430px;
+}
+
+.card2 {
+  position: absolute;
+}
+.card-container3 {
+  /* display: none; */
+  position: absolute;
+  display: flex;
+  position: relative;
+  margin-left: 360px;
+  /* margin-left: 500px;
+        margin-top: 350px; */
+}
+
+img {
+  width: 90px;
+  height: 90px;
+}
+.card-container1-player2 {
+  display: flex;
+  position: relative;
+  margin-left: 370px;
+
+  margin-top: 150px;
+}
+.card-container2-player2 {
+  display: flex;
+  position: relative;
+  margin-left: 70px;
+  margin-top: 150px;
+}
+.card-container3 {
+  display: none;
+  position: relative;
+  margin-left: 70px;
+  margin-top: 150px;
+}
+.score-container {
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 400px;
+  color: white;
+}
+.score-container-player2 {
+  margin-left: 200px;
+  position: absolute;
+  color: white;
+  /* margin-top: 300px; */
+}
+.chips-container {
+  margin-left: 400px;
+  position: absolute;
+  margin-top: 520px;
+  color: white;
+}
+.chips-container-player2 {
+  margin-left: 400px;
+  position: absolute;
+  margin-top: 100px;
+  color: white;
+}
+
+.bankas {
+  margin-left: 480px;
+  margin-top: 120px;
+}
+.player-cards-player1 {
+  position: absolute;
+  display: flex;
+  width: 240px;
+  background: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  margin-top: 400px;
+  margin-left: 300px;
+}
+.player-cards-player2 {
+  position: absolute;
+  display: flex;
+  width: 240px;
+  background: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+.card3 {
+  width: 25%;
+  /* position: relative; */
+}
+.buttons-player1 {
+  margin-top: 550px;
+  position: absolute;
+  margin-left: 190px;
+}
+.buttons-player2 {
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 190px;
+}
+.btn {
+  padding: 13px 25px;
+  border-radius: 10px;
+  border-style: none;
+  background: rgb(243, 9, 9);
+  color: white;
+  cursor: pointer;
+}
+.new-game {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 50px;
+  margin-left: 1000px;
+  padding: 13px 25px;
+  border-radius: 10px;
+  border-style: none;
+  background: rgb(243, 9, 9);
+  color: white;
+  cursor: pointer;
+}
+.testCont {
+  display: flex;
+}
+.card-table {
+  position: absolute;
+  width: 800px;
+  height: 210px;
+  background: green;
+  margin-top: 170px;
+  margin-left: 230px;
+  border-radius: 35px;
+}
+.bank {
+  color: white;
+  margin-left: 380px;
+  margin-top: 100px;
+  /* font-size: 50px; */
+}
+.table {
+  display: flex;
+  border: 1px solid black;
+  width: 900px;
+  height: 20px;
+  background: grey;
+  color: white;
+}
+span {
+  margin-left: 50px;
+}
+select {
+  width: 400px;
+  background: grey;
+  color: white;
+}
+.lobby-buttons {
+  margin-left: 900px;
+}
+.cashier {
+  width: 150px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(16, 196, 196);
+}
+.join {
+  width: 80px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(16, 196, 196);
+}
+.login {
+  width: 80px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(16, 196, 196);
+}
+button {
+  cursor: pointer;
+}
+.stakes {
+  color: white;
+}
+
+.creat-account {
+  margin-top: 20px;
+  color: black;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* display: none; */
+  margin-left: 350px;
+  width: 500px;
+  height: 400px;
+  background: white;
+  color: black;
+}
+.password {
+  color: black;
+}
+.email {
+  color: black;
+}
+.signup-text {
+  color: black;
+}
+.trinka {
+  color: white;
+}
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* display: none; */
+  margin-left: 350px;
+  width: 500px;
+  height: 400px;
+  background: white;
+  color: black;
+}
+.login-btn {
+  margin-top: 55px;
+  width: 250px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(16, 196, 196);
+}
+.username {
+  color: white;
+  margin-left: 800px;
+  display: inline;
+}
+.logout {
+  width: 80px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(16, 196, 196);
+}
+.table1 {
+  display: flex;
+}
