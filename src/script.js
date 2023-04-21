@@ -192,10 +192,11 @@ const unsubAuth = onAuthStateChanged(auth, (user) => {
 });
 console.log("current user", user);
 
-// const cont1 = document.querySelector(".player-container1");
+const cont1 = document.querySelector(".player-container1");
 // if (!cont1.children) {
 // const player = document.createElement("div");
 // player.textContent = "ggggggggggggggggggggggggggggggggggggggggggggggggggg";
 // player.classList.add("player1");
 // cont1.appendChild(player);
 // cont1.textContent = "hhhhhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggg";
+console.log(cont1);
