@@ -1,7 +1,6 @@
 {
   "name": "trinka2",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.79.0",
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "firebase": "^9.19.1"
-  }
+    "firebase": "^9.20.0"
+  },
+  "description": ""
 }
